@@ -8,7 +8,7 @@ namespace Unit5_AdapterPatternPatient_Blazor.InsuranceSystem
     //WARNING-YOU CANNOT CHANGE THIS CODE
     //USE AN ADAPTER CLASS FOR CHANGES
 
-    class OutNetworkPatient
+    public class OutNetworkPatient
     {
         public OutNetworkPatient(string newName, int newPolicyNumber)
         {

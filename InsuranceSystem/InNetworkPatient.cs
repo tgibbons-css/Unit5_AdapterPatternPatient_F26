@@ -7,7 +7,7 @@ namespace Unit5_AdapterPatternPatient_Blazor.InsuranceSystem
 {
     public enum PolicyLevels { Silver, Gold, Platinum };
 
-    class InNetworkPatient : InsuranceInterface
+    public class InNetworkPatient : InsuranceInterface
     {
         public InNetworkPatient(string newName, string newPolicyNumber, PolicyLevels newLevel)
         {
